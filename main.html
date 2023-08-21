@@ -10,7 +10,8 @@
 	<!-- the entire body must be written by student -->
 	<div>
 		<h1>My Playlist</h1>
-		<ul class="player_one"><br>
+		<div>
+		<ul><br>
 			<li><a href="https://www.youtube.com/watch?v=kd-6aw99DpA" target="_blank">Song1</a></li>
 			<li><a href="https://www.youtube.com/watch?v=9iIX4PBplAY" target="_blank">Song2</a></li>
 			<li><a href="https://www.youtube.com/watch?v=IjBAgWKW12Y" target="_blank">Song3</a></li>
@@ -18,9 +19,17 @@
 			<li><a href="https://www.youtube.com/watch?v=6MgsHSAcI9k" target="_blank">Song5</a></li>
 			<br><br>
 		</ul>
+		</div>
 		<h2>Now Playing...</h2>
-		<div>
-			<video source
+		<div class="media-player">
+			<video controls class="player_one">
+				<source src="" type="">
+			</video>
+			<h2>MP3 songs</h2>
+			<p>Maan Meri Jaan</p>
+			<audio controls class="player_two">
+				<source src="" type="mp3">
+			</audio>
 		</div>
 	</div>
     <script type="text/javascript" src="./script.js">

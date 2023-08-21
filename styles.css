@@ -4,7 +4,7 @@ body{
 	padding:1rem;
 }
 h1,h2{
-	text-align:center
+	text-align:center;
 }
 ul{
 	border:1px solid black;
@@ -12,6 +12,7 @@ ul{
 	border-radius:10px;
 	background-color:white;
 	padding-top:10px;
+	width:800px;
 }
 li{
 	
@@ -23,3 +24,17 @@ a{
 	color:black;
 	
 }
+.player-one{
+	height:600px;
+	width:600px;
+	padding-left:20px;
+	
+}
+.media-player{
+	background:rgb(255, 255, 255);
+}
+
+
+
+
+
