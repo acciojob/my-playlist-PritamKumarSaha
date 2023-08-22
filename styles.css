@@ -29,11 +29,13 @@ a{
 	width:90%;
 	padding-left:20px;
 	background-color: rgb(255, 255, 255);
-	border-radius:0px;
+	border-radius:10px;
 	
 }
 .player_two{
 	width:90%;
+	padding-left:20px;
+	background-color: rgb(255, 255, 255);
 }
 .media-player{
 	background:rgb(255, 255, 255);
